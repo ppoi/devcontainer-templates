@@ -1,0 +1,29 @@
+name: "release templates"
+
+on:
+  push:
+    branches: "main"
+
+jobs:
+  build-base-images:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Log in to the Container registry
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Build & Publish Templates
+        id: templates
+        uses: devcontainers/action@v1
+        with:
+          templates-namespace: ${{github.actor}}/devcontainer-templates
+          publish-templates: true
+          base-path-to-templates: ./src
+          generate-docs: true,
