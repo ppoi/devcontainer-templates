@@ -1,13 +1,13 @@
 {
-  "id": "type-zulu",
-  "version": "1.0.1",
-  "name": "Type-ZULU: Podman",
-  "description": "DevContainer Template for Podman",
+  "id": "type-bravo-02",
+  "version": "1.0.0",
+  "name": "Type-BRAVO: Quarkus",
+  "description": "DevContainers Template for Quarkus",
   "documentationURL": "https://github.com/ppoi/devcontainer-templates#README",
   "licenseURL": "https://github.com/ppoi/devcontainer-templates/blob/main/LICENSE",
   "publisher": "Tsukuba Bunko",
   "options": {
   },
-  "platforms": ["podman"],
-  "keywords": ["podman"]
+  "platforms": ["podman", "java"],
+  "keywords": ["podman", "quarkus"]
 }

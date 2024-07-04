@@ -1,13 +1,13 @@
 {
-  "id": "type-zulu",
-  "version": "1.0.1",
-  "name": "Type-ZULU: Podman",
-  "description": "DevContainer Template for Podman",
+  "id": "type-bravo-01",
+  "version": "1.0.0",
+  "name": "Type-BRAVO: Spring Boot",
+  "description": "DevContainers Template for Spring Boot",
   "documentationURL": "https://github.com/ppoi/devcontainer-templates#README",
   "licenseURL": "https://github.com/ppoi/devcontainer-templates/blob/main/LICENSE",
   "publisher": "Tsukuba Bunko",
   "options": {
   },
-  "platforms": ["podman"],
-  "keywords": ["podman"]
+  "platforms": ["podman", "java"],
+  "keywords": ["podman", "spring-boot"]
 }
