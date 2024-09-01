@@ -1,6 +1,6 @@
 {
   "id": "type-bravo-01",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "Type-BRAVO: Spring Boot",
   "description": "DevContainers Template for Spring Boot",
   "documentationURL": "https://github.com/ppoi/devcontainer-templates#README",

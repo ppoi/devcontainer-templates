@@ -1,6 +1,6 @@
 {
   "id": "type-bravo-02",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "Type-BRAVO: Quarkus",
   "description": "DevContainers Template for Quarkus",
   "documentationURL": "https://github.com/ppoi/devcontainer-templates#README",
