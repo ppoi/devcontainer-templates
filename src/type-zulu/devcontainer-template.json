@@ -1,8 +1,8 @@
 {
   "id": "type-zulu",
-  "version": "1.0.2",
-  "name": "Type-ZULU: Podman",
-  "description": "DevContainer Template for Podman",
+  "version": "1.1.0",
+  "name": "Type-ZULU: Basic Podman DevContainer",
+  "description": "DevContainer Template for Basic Podman Environment",
   "documentationURL": "https://github.com/ppoi/devcontainer-templates#README",
   "licenseURL": "https://github.com/ppoi/devcontainer-templates/blob/main/LICENSE",
   "publisher": "Tsukuba Bunko",
